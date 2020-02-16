@@ -1,10 +1,57 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    background-color: #13068a;
-    color: #fff;
-}
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* ----------Container -----------  */
+        /* ----------Header -----------  */
+        
+        header {
+            background-color: #1e1380;
+            color: #fff;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+        /* ----------Form -----------  */
+        
+        form {
+            border: 1px solid rgb(214, 210, 210);
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+        
+        .title {
+            background-color: rgb(240, 235, 235);
+            margin-top: 30px;
+            padding: 10px;
+        }
+        
+        .content {
+            display: flex;
+            flex-flow: row nowrap;
+            padding: 40px;
+        }
+        /* ----------Search and Clear -----------  */
+        
+        .search-and-clear {
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        
+        .search {
+            margin: 0 20px;
+        }
+        
+        i {
+            margin-right: 5px;
+        }
+        
+        .articles {
+            border: 1px solid #d3d0d0;
+            margin-bottom: 20px;
+        }
+        
+        .footer-content {
+            text-align: center;
+        }

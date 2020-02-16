@@ -21,19 +21,22 @@
     <div class="container">
         <header>
             <div class="content">
-                <i class="fas fa-newspaper fa-3x "></i>
+                <i class="fas fa-newspaper fa-3x"></i>
                 <h1>New York Time Search</h1>
             </div>
         </header>
         <main>
+            <div class="search-parameter title">
+                <i class="far fa-newspaper"></i> Search Parameter
+            </div>
             <form action="#">
                 <div class="form-group">
                     <label for="search-term">Search Term:</label>
-                    <input type="text" class="form-conrol" id="search-term">
-
+                    <input type="text" class="form-control" id="search-term">
                 </div>
                 <div class="form-group">
-                    <label for="Number-of-Records">Number of Records to Retrieve:</label> <select name="Number-of-Records" id="Number-of-Records">
+                    <label for="Number-of-Records">Number of Records to Retrieve:</label>
+                    <select name="Number-of-Records" id="Number-of-Records">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -54,10 +57,20 @@
                     <label for="end-year">End Year(Optional):</label>
                     <input type="text" class="form-control" id="end-year">
                 </div>
-                <div id="search">Search</div>
-                <div id="clear">Clear Results</div>
+                <div class="search-and-clear">
+                    <div class="search"><i class="fas fa-search"></i>Search</div>
+                    <div class="clear"><i class="far fa-trash-alt"></i>Clear Results</div>
+                </div>
             </form>
-            <div class="top-Article">Top Articles</div>
+            <section class="results-contents"></section>
+            <div class="top-Article title"><i class="fas fa-newspaper"></i>Top Articles</div>
+            <div class="articles">Searched Articles will display here</div>
+            <footer>
+
+                <div class="footer-content">
+                    <p>copyright &copy; 2020. All right Reserved</p>
+                </div>
+            </footer>
         </main>
     </div>
     <!-- Optional JavaScript -->
