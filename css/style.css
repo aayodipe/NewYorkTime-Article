@@ -7,7 +7,7 @@
         /* ----------Header -----------  */
         
         header {
-            background-color: #1e1380;
+            background-color: #20315A;
             color: #fff;
             display: flex;
             flex-flow: row wrap;
@@ -45,7 +45,16 @@
         }
         
         .search {
-            margin: 0 20px;
+            margin-right: 20px;
+            padding: 8px;
+            border: 1px solid #e4e2e2;
+            background-color: #e4e2e2;
+        }
+        
+        .clear {
+            padding: 8px;
+            border: 1px solid #e4e2e2;
+            background-color: #e4e2e2;
         }
         
         i {
