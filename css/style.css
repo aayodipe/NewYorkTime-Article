@@ -21,6 +21,14 @@
             padding: 20px;
         }
         
+        a {
+            color: #333
+        }
+        
+        a:hover {
+            color: #333
+        }
+        
         .title {
             background-color: rgb(240, 235, 235);
             margin-top: 30px;
@@ -64,6 +72,18 @@
         .articles {
             border: 1px solid #d3d0d0;
             margin-bottom: 20px;
+        }
+        
+        article h3 {
+            font-family: 'Domine', serif;
+        }
+        
+        .light {
+            color: #868383
+        }
+        
+        .story {
+            color: #383232
         }
         
         .footer-content {

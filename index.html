@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Awesome Fonts -->
     <script src="https://kit.fontawesome.com/7751f3858a.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
+
 
     <title>New York Time Article Search</title>
 </head>
@@ -32,7 +35,7 @@
             <form id="articleForm" action="#">
                 <div class="form-group">
                     <label for="search-term">Search Term:</label>
-                    <input type="text" name="search-term" class="form-control" id="search-term" placeholder="Election">
+                    <input type="text" name="search-term" class="form-control" id="search-term" placeholder="Bloomberg">
                 </div>
                 <div class=" form-group ">
                     <label for="number-of-Records ">Number of Records to Retrieve:</label>
@@ -62,13 +65,63 @@
                         <a href="# "><i class="fas fa-search "></i>Search</a>
                     </div>
                     <div class="clear ">
-                        <a href="# "><i class="far fa-trash-alt "></i> Clear Results</a>
+                        <a href="#"><i class="far fa-trash-alt "></i> Clear Results</a>
                     </div>
                 </div>
             </form>
-            <section class="results-contents "></section>
+
             <div class="top-Article title "><i class="fas fa-newspaper "></i>Top Articles</div>
-            <div class="articles ">Searched Articles will display here</div>
+            <div class="articles demo">
+                <section class="demo-text">
+                    <article class="row p-4 ">
+                        <aside class="col-sm-12 col-md-2">
+                            <date class="light">Feb.15,2020</date>
+                        </aside>
+                        <div class="col-sm-12 col-md-10">
+
+                            <h5 class="mb-3 headline">
+                                <a href="#">Bloomberg’s Money Machine: 5 Takeaways on His Political Spending</a></h5>
+                            <p class="story">The presidential candidate has donated billions to progressive causes over the years. That has earned him enormous influence with Democrats, even those who take issue with parts of his record.
+                            </p>
+                            <small><cite class="light">By NICHOLAS KULISH and ALEXANDER</cite> </small>
+
+                        </div>
+                    </article>
+                    <hr>
+
+                    <article class="row p-4">
+                        <aside class="col-sm-12 col-md-2">
+                            <date class="light"> Dec. 14, 2019</date>
+                        </aside>
+                        <div class="col-sm-12 col-md-10">
+
+                            <h5 class="mb-3 headline">
+                                <a href="#">‘Mayors for Mike’: How Bloomberg’s Money Built a 2020 Political Network</a></h5>
+                            <p class="story">Michael Bloomberg is relying on powerful city leaders as allies in his presidential campaign. Several have received grants, training and support packages totaling millions from his foundation.
+                            </p>
+                            <small><cite class="light">By ALEXANDER BURNS, NICHOLAS KULISH
+                            and SHANE GOLDMACHER</cite> </small>
+
+                        </div>
+                    </article>
+                    <hr>
+                    <article class="row p-4">
+                        <aside class="col-sm-12 col-md-2">
+                            <date class="light">Nov. 30, 2019</date>
+                        </aside>
+                        <div class="col-sm-12 col-md-10">
+
+                            <h5 class="mb-3 headline">
+                                <a href="#">Wealthy Businessman Charged in Murder Case That Rocked Malta</a></h5>
+                            <p class="story">Stalled for years, the inquiry into the killing of the journalist Daphne Caruana Galizia has stirred suspicions of Maltese officials and calls for the premier to resign.
+                            </p>
+                            <small class="light">By ANDREW HIGGINS </small>
+
+                        </div>
+                    </article>
+                </section>
+
+            </div>
             <footer>
 
                 <div class="footer-content ">
@@ -78,7 +131,7 @@
         </main>
     </div>
     <!-- Optional JavaScript -->
-
+    <script src="https://momentjs.com/downloads/moment.js"></script>
     <script src="js/config.js "></script>
     <script src="js/app.js "></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
