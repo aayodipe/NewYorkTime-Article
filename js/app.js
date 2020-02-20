@@ -24,7 +24,7 @@ const newElement = (e, el, t) => {
     return newItem;
 
 }
-search.addEventListener('click touchstart', (e) => {
+search.addEventListener(('click'), (e) => {
 
     e.preventDefault();
     articleName = searchTerm.value.trim();
